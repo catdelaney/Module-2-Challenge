@@ -1,0 +1,66 @@
+
+
+/* Header Bar */
+header{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    background-color: peachpuff;
+    color: peru;
+    text-align: center;
+    margin: 15px;
+}
+
+/* Website Background */
+body{
+    margin: 0;
+    background-color: peachpuff; 
+}
+
+.hero-image{
+    background-image: url(wallpaper.png);
+    height: 45%;
+    position: relative;
+    background-position: center;
+}
+
+.hero-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 20%;
+    font-size: 25px;
+    color: lightslategrey;
+    text-align: left;
+    margin: 15px;
+}
+
+/*Button*/
+.button{
+    background-color: white;
+    color: peru;
+    border-color: peru;
+    border-width: medium;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}
+
+/* Main Page Fonts */
+main,
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: lightslategrey;
+    margin: 10px;
+}
+
+p{
+    font-size: 12px;
+}
+
+/* Footer */
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    background-color: peru;
+    color:azure;
+    text-align: center;
+}
