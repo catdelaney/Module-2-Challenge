@@ -3,11 +3,35 @@
 /* Header Bar */
 header{
     font-family:'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: 45px;
     background-color: peachpuff;
     color: peru;
     text-align: center;
     margin: 15px;
+}
+
+header nav {
+    margin: 7px 0;
+}
+  
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+  
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+  
+header nav ul li a:hover {
+    color: darkred;
+    border-radius: 15px;
+    text-shadow: none;
 }
 
 /* Website Background */
@@ -26,9 +50,9 @@ body{
 .hero-text{
     font-family: 'Montserrat', sans-serif;
     font-weight: 20%;
-    font-size: 25px;
+    font-size: 20px;
     color: lightslategrey;
-    text-align: left;
+    text-align: center;
     margin: 15px;
 }
 
